@@ -1,4 +1,4 @@
-# 📊 Marketing Intelligence Suite
+#  Marketing Intelligence Suite
 
 **End-to-end Data Science & Machine Learning solution for marketing analytics**
 
@@ -6,21 +6,21 @@
 
 ---
 
-## 📥 Dataset Setup (Required)
+## Dataset Setup (Required)
 
-This project uses the **Online Retail II UCI** dataset — 1M+ real e-commerce transactions from a UK retailer (2009–2011).
+This project uses the **Online Retail II UCI** dataset. 1M+ real e-commerce transactions from a UK retailer (2009–2011).
 
 **Download steps:**
 1. Go to **https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci**
 2. Sign in to Kaggle (free account) and click **Download**
-3. Unzip the file — you will get `online_retail_II.xlsx`
+3. Unzip the file. you will get `online_retail_II.xlsx`
 4. Place it at: `data/raw/online_retail_II.xlsx`
 
 > All four notebooks will automatically detect and load this file. If it is not present, a `FileNotFoundError` with clear instructions is raised.
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project delivers a complete marketing data science pipeline across four modules, covering the full lifecycle from raw data to deployed interactive dashboard. It was built to demonstrate applied machine learning, statistical experimentation, and NLP on realistic e-commerce marketing data.
 
@@ -28,7 +28,7 @@ This project delivers a complete marketing data science pipeline across four mod
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 marketing-intelligence-suite/
@@ -52,7 +52,7 @@ marketing-intelligence-suite/
 
 ---
 
-## 🧩 Modules
+##  Modules
 
 ### Module 1 — Customer Segmentation
 **File:** [`notebooks/01_customer_segmentation.ipynb`](notebooks/01_customer_segmentation.ipynb)
@@ -121,7 +121,7 @@ marketing-intelligence-suite/
 
 ---
 
-## 🚀 How to Run
+## How zou can Run
 
 ### 1. Install dependencies
 ```bash
@@ -141,7 +141,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Module | Metric | Result |
 |---|---|---|
@@ -159,10 +159,4 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📄 CV Bullet Points (Ready to Copy)
 
-> **Marketing Intelligence Suite** *(Personal Project — Data Science Portfolio, 2025)*
-> - Built end-to-end ML pipeline on 500K+ e-commerce transactions: RFM-based customer segmentation (K-Means/DBSCAN, Silhouette Score), customer propensity classifier (XGBoost, **AUC 0.87**), and CLV regression model (**R²=0.83**) with SHAP interpretability.
-> - Designed and analyzed A/B test experiment using Chi-Square, Welch's t-test, and Mann-Whitney U; computed Cohen's d effect size and 95% CIs; applied Propensity Score Matching for causal inference — identified +25% conversion lift.
-> - Applied NLP pipeline (tokenization, lemmatization, VADER sentiment, LDA topic modeling) to 2,000+ customer reviews; built GenAI (LLM API) prompt engineering layer to generate actionable marketing recommendations per segment.
-> - Deployed end-to-end interactive Streamlit dashboard for real-time segment exploration and model output visualization.
