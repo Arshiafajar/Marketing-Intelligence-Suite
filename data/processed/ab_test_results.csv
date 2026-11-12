@@ -1,0 +1,4 @@
+Test,Statistic,p_value,Significant
+Conversion Rate (Chi-Square),12.6991,0.000366,True
+Avg Order Value (t-test),1.011,0.313219,False
+Avg Order Value (Mann-Whitney),24713.0,0.093034,False
